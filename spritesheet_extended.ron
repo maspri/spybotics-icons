@@ -11,1162 +11,1166 @@
 
 
 #![enable(implicit_some)]
-List((
-    texture_width: 256,
-    texture_height: 621,
-    sprites: [
-        (
-            // 0: Arrow.png
-            x: 1,
-            y: 1,
-            width: 37,
-            height: 22,
-            offsets: (0, 0),
-        ),
-        (
-            // 1: AttackDog.png
-            x: 65,
-            y: 337,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 2: Ballista.png
-            x: 97,
-            y: 337,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 3: Bit-man.png
-            x: 129,
-            y: 337,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 4: Bit-manTailDown.png
-            x: 65,
-            y: 269,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 5: Bit-manTailLeft.png
-            x: 40,
-            y: 1,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 6: Bit-manTailRight.png
-            x: 186,
-            y: 99,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 7: Bit-manTailUp.png
-            x: 225,
-            y: 1,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 8: BlackWidow.png
-            x: 161,
-            y: 337,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 9: BombTailDown.png
-            x: 225,
-            y: 568,
-            width: 29,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 10: BombTailLeft.png
-            x: 1,
-            y: 25,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 11: BombTailRight.png
-            x: 220,
-            y: 106,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 12: BombTailUp.png
-            x: 1,
-            y: 219,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 13: Boss.png
-            x: 193,
-            y: 344,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 14: BossTailDown.png
-            x: 33,
-            y: 301,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 15: BossTailLeft.png
-            x: 77,
-            y: 1,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 16: BossTailRight.png
-            x: 35,
-            y: 131,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 17: BossTailUp.png
-            x: 69,
-            y: 195,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 18: Bug.png
-            x: 225,
-            y: 344,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 19: BugTailDown.png
-            x: 1,
-            y: 330,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 20: BugTailLeft.png
-            x: 114,
-            y: 1,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 21: BugTailRight.png
-            x: 1,
-            y: 155,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 22: BugTailUp.png
-            x: 33,
-            y: 227,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 23: BuzzBomb.png
-            x: 33,
-            y: 369,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 24: Catapult.png
-            x: 1,
-            y: 398,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 25: CheckMark.png
-            x: 174,
-            y: 97,
-            width: 10,
-            height: 10,
-            offsets: (0, 0),
-        ),
-        (
-            // 26: Clog.01.png
-            x: 65,
-            y: 369,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 27: Clog.02.png
-            x: 97,
-            y: 369,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 28: Clog.03.png
-            x: 129,
-            y: 369,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 29: ClogTailDown.png
-            x: 97,
-            y: 269,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 30: ClogTailLeft.png
-            x: 151,
-            y: 1,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 31: ClogTailRight.png
-            x: 69,
-            y: 131,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 32: ClogTailUp.png
-            x: 1,
-            y: 256,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 33: Coin.png
-            x: 239,
-            y: 156,
-            width: 15,
-            height: 15,
-            offsets: (-1, 1),
-        ),
-        (
-            // 34: CommandDown.png
-            x: 186,
-            y: 65,
-            width: 32,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 35: CommandLeft.png
-            x: 220,
-            y: 72,
-            width: 32,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 36: CommandUp.png
-            x: 38,
-            y: 97,
-            width: 32,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 37: CommanRight.png
-            x: 223,
-            y: 38,
-            width: 32,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 38: Credits.png
-            x: 239,
-            y: 138,
-            width: 16,
-            height: 16,
-            offsets: (0, 0),
-        ),
-        (
-            // 39: DataDoctor.png
-            x: 161,
-            y: 369,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 40: DataDoctorPro.png
-            x: 193,
-            y: 376,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 41: DataItem.png
-            x: 229,
-            y: 202,
-            width: 23,
-            height: 27,
-            offsets: (-0.5, 0.5),
-        ),
-        (
-            // 42: DogTailDown.png
-            x: 129,
-            y: 269,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 43: DogtailLeft.png
-            x: 188,
-            y: 1,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 44: DogTailRight.png
-            x: 103,
-            y: 131,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 45: DogTailUp.png
-            x: 101,
-            y: 195,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 46: Fiddle.png
-            x: 225,
-            y: 376,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 47: Firewall.png
-            x: 33,
-            y: 401,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 48: Golem.clay.png
-            x: 1,
-            y: 430,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 49: Golem.mud.png
-            x: 65,
-            y: 401,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 50: Golem.stone.png
-            x: 97,
-            y: 401,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 51: GolemTailDown.png
-            x: 161,
-            y: 269,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 52: GolemTailLeft.png
-            x: 38,
-            y: 33,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 53: GolemTailRight.png
-            x: 137,
-            y: 131,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 54: GolemTailUp.png
-            x: 133,
-            y: 195,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 55: GuardDog.png
-            x: 129,
-            y: 401,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 56: GuardPup.png
-            x: 161,
-            y: 401,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 57: Guru.png
-            x: 193,
-            y: 408,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 58: Hack.png
-            x: 225,
-            y: 408,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 59: Hack2.0.png
-            x: 33,
-            y: 433,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 60: Hack3.0.png
-            x: 1,
-            y: 462,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 61: HackTailDown.png
-            x: 193,
-            y: 276,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 62: HackTailLeft.png
-            x: 1,
-            y: 57,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 63: HackTailRight.png
-            x: 171,
-            y: 131,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 64: HackTailUp.png
-            x: 165,
-            y: 195,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 65: Heisenbug.png
-            x: 65,
-            y: 433,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 66: LaserSatellite.png
-            x: 97,
-            y: 433,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 67: LogicBomb.png
-            x: 129,
-            y: 433,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 68: Mandelbug.png
-            x: 161,
-            y: 433,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 69: MandelbugEvil.png
-            x: 193,
-            y: 440,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 70: Medic.png
-            x: 225,
-            y: 440,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 71: MedicTailDown.png
-            x: 225,
-            y: 276,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 72: MedicTailLeft.png
-            x: 75,
-            y: 33,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 73: MedicTailRight.png
-            x: 205,
-            y: 138,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 74: MedicTailUp.png
-            x: 197,
-            y: 202,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 75: MemoryHog.png
-            x: 33,
-            y: 465,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 76: MobileTower.png
-            x: 1,
-            y: 494,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 77: PurpleMandelBug.png
-            x: 65,
-            y: 465,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 78: PurpleMandelBugTailDown.png
-            x: 65,
-            y: 303,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 79: PurpleMandelBugTailLeft.png
-            x: 112,
-            y: 33,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 80: PurpleMandelBugTailRight.png
-            x: 35,
-            y: 163,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 81: PurpleMandelBugTailUp.png
-            x: 65,
-            y: 232,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 82: PurpleSumo.png
-            x: 97,
-            y: 465,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 83: PurpleSumoTailDown.png
-            x: 33,
-            y: 335,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 84: PurpleSumoTailLeft.png
-            x: 149,
-            y: 33,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 85: PurpleSumoTailRight.png
-            x: 1,
-            y: 187,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 86: PurpleSumoTailUp.png
-            x: 33,
-            y: 264,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 87: Radar.png
-            x: 129,
-            y: 465,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 88: RepairGridSquare.png
-            x: 1,
-            y: 121,
-            width: 32,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 89: Satellite.png
-            x: 161,
-            y: 465,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 90: Seeker.png
-            x: 193,
-            y: 472,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 91: Seeker2.0.png
-            x: 225,
-            y: 472,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 92: Seeker3.0.png
-            x: 33,
-            y: 497,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 93: SelectSquareGreen.png
-            x: 72,
-            y: 97,
-            width: 32,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 94: SelectSquareRed.png
-            x: 106,
-            y: 97,
-            width: 32,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 95: Sensor.png
-            x: 1,
-            y: 526,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 96: Sentinal.png
-            x: 65,
-            y: 497,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 97: Sentinal2.0.png
-            x: 97,
-            y: 497,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 98: Sentinal3.0.png
-            x: 129,
-            y: 497,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 99: SentinelTailDown.png
-            x: 1,
-            y: 364,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 100: SentinelTailLeft.png
-            x: 186,
-            y: 33,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 101: SentinelTailRight.png
-            x: 69,
-            y: 163,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 102: SentinelTailUp.png
-            x: 1,
-            y: 293,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 103: Slingshot.png
-            x: 161,
-            y: 497,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 104: SlingshotTailDown.png
-            x: 97,
-            y: 303,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 105: SlingshotTailLeft.png
-            x: 38,
-            y: 65,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 106: SlingshotTailRight.png
-            x: 103,
-            y: 163,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 107: SlingshotTailUp.png
-            x: 97,
-            y: 232,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 108: Sonar.png
-            x: 193,
-            y: 504,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 109: SpiderTailDown.png
-            x: 129,
-            y: 303,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 110: SpiderTailLeft.png
-            x: 1,
-            y: 89,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 111: SpiderTailRight.png
-            x: 137,
-            y: 163,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 112: SpiderTailUp.png
-            x: 129,
-            y: 232,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 113: Stack.png
-            x: 229,
-            y: 202,
-            width: 23,
-            height: 27,
-            offsets: (0.5, 0.5),
-        ),
-        (
-            // 114: Sumo.png
-            x: 225,
-            y: 504,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 115: SumoEvil.png
-            x: 33,
-            y: 529,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 116: Tarantula.png
-            x: 1,
-            y: 558,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 117: Tower.png
-            x: 65,
-            y: 529,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 118: TowerTailDown.png
-            x: 161,
-            y: 303,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 119: TowerTailLeft.png
-            x: 75,
-            y: 65,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 120: TowerTailRight.png
-            x: 171,
-            y: 163,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 121: TowerTailUp.png
-            x: 161,
-            y: 232,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 122: Turbo.png
-            x: 97,
-            y: 529,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 123: TurboDeluxe.png
-            x: 129,
-            y: 529,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 124: UploadZone.png
-            x: 161,
-            y: 529,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 125: UploadZone1.png
-            x: 161,
-            y: 529,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 126: UploadZone2.png
-            x: 193,
-            y: 536,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 127: UploadZone3.png
-            x: 140,
-            y: 97,
-            width: 32,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 128: Warden++.png
-            x: 225,
-            y: 536,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 129: Warden+.png
-            x: 33,
-            y: 561,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 130: Warden.png
-            x: 1,
-            y: 590,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 131: WardenTailDown.png
-            x: 193,
-            y: 310,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 132: WardenTailLeft.png
-            x: 112,
-            y: 65,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 133: WardenTailRight.png
-            x: 205,
-            y: 170,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 134: WardenTailUp.png
-            x: 193,
-            y: 239,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 135: Watchman.png
-            x: 65,
-            y: 561,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 136: WatchmanSP.png
-            x: 97,
-            y: 561,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 137: WatchmanTailDown.png
-            x: 225,
-            y: 310,
-            width: 30,
-            height: 32,
-            offsets: (0, 0),
-        ),
-        (
-            // 138: WatchmanTailLeft.png
-            x: 149,
-            y: 65,
-            width: 35,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 139: WatchmanTailRight.png
-            x: 35,
-            y: 195,
-            width: 32,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 140: WatchmanTailUp.png
-            x: 225,
-            y: 239,
-            width: 30,
-            height: 35,
-            offsets: (0, 0),
-        ),
-        (
-            // 141: WatchmanX.png
-            x: 129,
-            y: 561,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 142: Wizard.png
-            x: 161,
-            y: 561,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        ),
-        (
-            // 143: Wolfspider.png
-            x: 193,
-            y: 568,
-            width: 30,
-            height: 30,
-            offsets: (0, 0),
-        )
-    ],
-))
+{
+    "04c60333-c790-4586-aa76-086b19167a04":
 
+    List((
+        texture_width: 256,
+        texture_height: 621,
+        sprites: [
+            (
+                // 0: Arrow.png
+                x: 1,
+                y: 1,
+                width: 37,
+                height: 22,
+                offsets: (0, 0),
+            ),
+            (
+                // 1: AttackDog.png
+                x: 65,
+                y: 337,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 2: Ballista.png
+                x: 97,
+                y: 337,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 3: Bit-man.png
+                x: 129,
+                y: 337,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 4: Bit-manTailDown.png
+                x: 65,
+                y: 269,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 5: Bit-manTailLeft.png
+                x: 40,
+                y: 1,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 6: Bit-manTailRight.png
+                x: 186,
+                y: 99,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 7: Bit-manTailUp.png
+                x: 225,
+                y: 1,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 8: BlackWidow.png
+                x: 161,
+                y: 337,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 9: BombTailDown.png
+                x: 225,
+                y: 568,
+                width: 29,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 10: BombTailLeft.png
+                x: 1,
+                y: 25,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 11: BombTailRight.png
+                x: 220,
+                y: 106,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 12: BombTailUp.png
+                x: 1,
+                y: 219,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 13: Boss.png
+                x: 193,
+                y: 344,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 14: BossTailDown.png
+                x: 33,
+                y: 301,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 15: BossTailLeft.png
+                x: 77,
+                y: 1,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 16: BossTailRight.png
+                x: 35,
+                y: 131,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 17: BossTailUp.png
+                x: 69,
+                y: 195,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 18: Bug.png
+                x: 225,
+                y: 344,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 19: BugTailDown.png
+                x: 1,
+                y: 330,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 20: BugTailLeft.png
+                x: 114,
+                y: 1,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 21: BugTailRight.png
+                x: 1,
+                y: 155,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 22: BugTailUp.png
+                x: 33,
+                y: 227,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 23: BuzzBomb.png
+                x: 33,
+                y: 369,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 24: Catapult.png
+                x: 1,
+                y: 398,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 25: CheckMark.png
+                x: 174,
+                y: 97,
+                width: 10,
+                height: 10,
+                offsets: (0, 0),
+            ),
+            (
+                // 26: Clog.01.png
+                x: 65,
+                y: 369,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 27: Clog.02.png
+                x: 97,
+                y: 369,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 28: Clog.03.png
+                x: 129,
+                y: 369,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 29: ClogTailDown.png
+                x: 97,
+                y: 269,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 30: ClogTailLeft.png
+                x: 151,
+                y: 1,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 31: ClogTailRight.png
+                x: 69,
+                y: 131,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 32: ClogTailUp.png
+                x: 1,
+                y: 256,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 33: Coin.png
+                x: 239,
+                y: 156,
+                width: 15,
+                height: 15,
+                offsets: (-1, 1),
+            ),
+            (
+                // 34: CommandDown.png
+                x: 186,
+                y: 65,
+                width: 32,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 35: CommandLeft.png
+                x: 220,
+                y: 72,
+                width: 32,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 36: CommandUp.png
+                x: 38,
+                y: 97,
+                width: 32,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 37: CommanRight.png
+                x: 223,
+                y: 38,
+                width: 32,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 38: Credits.png
+                x: 239,
+                y: 138,
+                width: 16,
+                height: 16,
+                offsets: (0, 0),
+            ),
+            (
+                // 39: DataDoctor.png
+                x: 161,
+                y: 369,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 40: DataDoctorPro.png
+                x: 193,
+                y: 376,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 41: DataItem.png
+                x: 229,
+                y: 202,
+                width: 23,
+                height: 27,
+                offsets: (-0.5, 0.5),
+            ),
+            (
+                // 42: DogTailDown.png
+                x: 129,
+                y: 269,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 43: DogtailLeft.png
+                x: 188,
+                y: 1,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 44: DogTailRight.png
+                x: 103,
+                y: 131,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 45: DogTailUp.png
+                x: 101,
+                y: 195,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 46: Fiddle.png
+                x: 225,
+                y: 376,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 47: Firewall.png
+                x: 33,
+                y: 401,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 48: Golem.clay.png
+                x: 1,
+                y: 430,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 49: Golem.mud.png
+                x: 65,
+                y: 401,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 50: Golem.stone.png
+                x: 97,
+                y: 401,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 51: GolemTailDown.png
+                x: 161,
+                y: 269,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 52: GolemTailLeft.png
+                x: 38,
+                y: 33,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 53: GolemTailRight.png
+                x: 137,
+                y: 131,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 54: GolemTailUp.png
+                x: 133,
+                y: 195,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 55: GuardDog.png
+                x: 129,
+                y: 401,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 56: GuardPup.png
+                x: 161,
+                y: 401,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 57: Guru.png
+                x: 193,
+                y: 408,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 58: Hack.png
+                x: 225,
+                y: 408,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 59: Hack2.0.png
+                x: 33,
+                y: 433,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 60: Hack3.0.png
+                x: 1,
+                y: 462,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 61: HackTailDown.png
+                x: 193,
+                y: 276,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 62: HackTailLeft.png
+                x: 1,
+                y: 57,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 63: HackTailRight.png
+                x: 171,
+                y: 131,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 64: HackTailUp.png
+                x: 165,
+                y: 195,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 65: Heisenbug.png
+                x: 65,
+                y: 433,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 66: LaserSatellite.png
+                x: 97,
+                y: 433,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 67: LogicBomb.png
+                x: 129,
+                y: 433,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 68: Mandelbug.png
+                x: 161,
+                y: 433,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 69: MandelbugEvil.png
+                x: 193,
+                y: 440,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 70: Medic.png
+                x: 225,
+                y: 440,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 71: MedicTailDown.png
+                x: 225,
+                y: 276,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 72: MedicTailLeft.png
+                x: 75,
+                y: 33,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 73: MedicTailRight.png
+                x: 205,
+                y: 138,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 74: MedicTailUp.png
+                x: 197,
+                y: 202,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 75: MemoryHog.png
+                x: 33,
+                y: 465,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 76: MobileTower.png
+                x: 1,
+                y: 494,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 77: PurpleMandelBug.png
+                x: 65,
+                y: 465,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 78: PurpleMandelBugTailDown.png
+                x: 65,
+                y: 303,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 79: PurpleMandelBugTailLeft.png
+                x: 112,
+                y: 33,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 80: PurpleMandelBugTailRight.png
+                x: 35,
+                y: 163,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 81: PurpleMandelBugTailUp.png
+                x: 65,
+                y: 232,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 82: PurpleSumo.png
+                x: 97,
+                y: 465,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 83: PurpleSumoTailDown.png
+                x: 33,
+                y: 335,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 84: PurpleSumoTailLeft.png
+                x: 149,
+                y: 33,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 85: PurpleSumoTailRight.png
+                x: 1,
+                y: 187,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 86: PurpleSumoTailUp.png
+                x: 33,
+                y: 264,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 87: Radar.png
+                x: 129,
+                y: 465,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 88: RepairGridSquare.png
+                x: 1,
+                y: 121,
+                width: 32,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 89: Satellite.png
+                x: 161,
+                y: 465,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 90: Seeker.png
+                x: 193,
+                y: 472,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 91: Seeker2.0.png
+                x: 225,
+                y: 472,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 92: Seeker3.0.png
+                x: 33,
+                y: 497,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 93: SelectSquareGreen.png
+                x: 72,
+                y: 97,
+                width: 32,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 94: SelectSquareRed.png
+                x: 106,
+                y: 97,
+                width: 32,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 95: Sensor.png
+                x: 1,
+                y: 526,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 96: Sentinal.png
+                x: 65,
+                y: 497,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 97: Sentinal2.0.png
+                x: 97,
+                y: 497,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 98: Sentinal3.0.png
+                x: 129,
+                y: 497,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 99: SentinelTailDown.png
+                x: 1,
+                y: 364,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 100: SentinelTailLeft.png
+                x: 186,
+                y: 33,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 101: SentinelTailRight.png
+                x: 69,
+                y: 163,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 102: SentinelTailUp.png
+                x: 1,
+                y: 293,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 103: Slingshot.png
+                x: 161,
+                y: 497,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 104: SlingshotTailDown.png
+                x: 97,
+                y: 303,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 105: SlingshotTailLeft.png
+                x: 38,
+                y: 65,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 106: SlingshotTailRight.png
+                x: 103,
+                y: 163,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 107: SlingshotTailUp.png
+                x: 97,
+                y: 232,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 108: Sonar.png
+                x: 193,
+                y: 504,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 109: SpiderTailDown.png
+                x: 129,
+                y: 303,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 110: SpiderTailLeft.png
+                x: 1,
+                y: 89,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 111: SpiderTailRight.png
+                x: 137,
+                y: 163,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 112: SpiderTailUp.png
+                x: 129,
+                y: 232,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 113: Stack.png
+                x: 229,
+                y: 202,
+                width: 23,
+                height: 27,
+                offsets: (0.5, 0.5),
+            ),
+            (
+                // 114: Sumo.png
+                x: 225,
+                y: 504,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 115: SumoEvil.png
+                x: 33,
+                y: 529,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 116: Tarantula.png
+                x: 1,
+                y: 558,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 117: Tower.png
+                x: 65,
+                y: 529,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 118: TowerTailDown.png
+                x: 161,
+                y: 303,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 119: TowerTailLeft.png
+                x: 75,
+                y: 65,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 120: TowerTailRight.png
+                x: 171,
+                y: 163,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 121: TowerTailUp.png
+                x: 161,
+                y: 232,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 122: Turbo.png
+                x: 97,
+                y: 529,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 123: TurboDeluxe.png
+                x: 129,
+                y: 529,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 124: UploadZone.png
+                x: 161,
+                y: 529,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 125: UploadZone1.png
+                x: 161,
+                y: 529,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 126: UploadZone2.png
+                x: 193,
+                y: 536,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 127: UploadZone3.png
+                x: 140,
+                y: 97,
+                width: 32,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 128: Warden++.png
+                x: 225,
+                y: 536,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 129: Warden+.png
+                x: 33,
+                y: 561,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 130: Warden.png
+                x: 1,
+                y: 590,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 131: WardenTailDown.png
+                x: 193,
+                y: 310,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 132: WardenTailLeft.png
+                x: 112,
+                y: 65,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 133: WardenTailRight.png
+                x: 205,
+                y: 170,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 134: WardenTailUp.png
+                x: 193,
+                y: 239,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 135: Watchman.png
+                x: 65,
+                y: 561,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 136: WatchmanSP.png
+                x: 97,
+                y: 561,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 137: WatchmanTailDown.png
+                x: 225,
+                y: 310,
+                width: 30,
+                height: 32,
+                offsets: (0, 0),
+            ),
+            (
+                // 138: WatchmanTailLeft.png
+                x: 149,
+                y: 65,
+                width: 35,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 139: WatchmanTailRight.png
+                x: 35,
+                y: 195,
+                width: 32,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 140: WatchmanTailUp.png
+                x: 225,
+                y: 239,
+                width: 30,
+                height: 35,
+                offsets: (0, 0),
+            ),
+            (
+                // 141: WatchmanX.png
+                x: 129,
+                y: 561,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 142: Wizard.png
+                x: 161,
+                y: 561,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            ),
+            (
+                // 143: Wolfspider.png
+                x: 193,
+                y: 568,
+                width: 30,
+                height: 30,
+                offsets: (0, 0),
+            )
+        ],
+    ))
+
+}
